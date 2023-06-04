@@ -168,7 +168,6 @@ namespace nmsparse {
 
         if (is_one(m))
         {
-            std::cout << "nmsparseSpMMEW: m is one" << std::endl;
             const int w = int((1.0f - sparsity) * K);
             const int h = N;
             const int vecNum = K;
